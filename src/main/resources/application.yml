@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    schema: classpath:/db/h2/ddl_init.sql
+    #url: jdbc:mysql://10.207.30.152:3306/yczd_mini
+    #username: root
+    #password: admin
+    #driver-class-name: com.mysql.jdbc.Driver 
+
+logging:
+  level:
+    org:
+      springframework: debug
+        
